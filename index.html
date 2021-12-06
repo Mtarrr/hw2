@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Solving equations</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div class="block1">
+    <h1>Solution of a quadratic equation.</h1>
+
+    <p>This little service can find the roots of the entered equation.
+        <br>The obtained values will be entered in the table below.
+        <br>Just enter the coefficients and press the "Result" button</p>
+
+    <div class="inner">
+        <input class="input" id="coeff1" type="text" autofocus/>
+        x<sup><small>2</small></sup>+
+        <input class="input" id="coeff2" type="text" />
+        x +
+        <input class="input" id="coeff3" type="text"/>
+        = 0
+        <button onclick="calc()">Result</button>
+    </div>
+
+</div>
+<div class="block2">
+    <h1>Here is the results:</h1>
+    <table>
+        <tr id="table">
+            <td><p>№</p></td>
+            <td><p>x1</p></td>
+            <td><p>x2</p></td>
+        </tr>
+
+    </table>
+</div>
+
+<footer >
+    <div class="block3"><p >&#129505 UI 2021</p></div>
+</footer>
+
+</body>
+</html>
