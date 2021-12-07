@@ -15,6 +15,7 @@ body{
     padding: 20px;
     text-align:  center;
     color: black;
+    min-height: 330px;
 }
 .block3 {
     padding: 20px;
